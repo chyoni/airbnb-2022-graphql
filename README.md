@@ -50,3 +50,7 @@ REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene 
 - #04 Room list pagniate and divide schema.py
 
 - #05 See room and user
+
+- #06 Mutation (create account)
+
+  - mutations.py / queries.py 로 분리 후 schema.py에서 합치기 정리
