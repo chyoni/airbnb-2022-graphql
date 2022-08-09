@@ -136,5 +136,3 @@ MEDIA_URL = "/media/"
 AUTH_USER_MODEL = "users.User"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
-GRAPHENE = {"SCHEMA": "app.config.schema"}  # Where your Graphene schema lives

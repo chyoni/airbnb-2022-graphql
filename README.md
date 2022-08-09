@@ -42,3 +42,5 @@ REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene 
     from django.utils.encoding import force_str# Line 6
     s = force_str(s) # Line 29
     ```
+
+- #02 Basic setting graphene
