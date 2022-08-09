@@ -44,3 +44,5 @@ REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene 
     ```
 
 - #02 Basic setting graphene
+
+- #03 Room list by graphql
