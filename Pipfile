@@ -11,9 +11,13 @@ black = "*"
 django = "*"
 pillow = "*"
 django-seed = "*"
+requests = "*"
+psycopg2-binary = "*"
+graphene-django = "*"
+graphql-core = "==2.3.1"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
 
 [pipenv]
 allow_prereleases = true
