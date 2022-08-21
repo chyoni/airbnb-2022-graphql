@@ -66,3 +66,5 @@ REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene 
   - Headers에 token을 넣고 request했을 때 token을 받아 decode하는 middleware
 
 - #09 Me resolver
+
+- #10 Toggle room favs
