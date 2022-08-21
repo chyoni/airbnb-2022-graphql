@@ -2,7 +2,8 @@ from . import models
 from . import types
 
 
-def resolve_rooms(self, info, page=1):
+def resolve_rooms(root, info, page=1):
+    print(info.context.user)
     if page < 1:
         page = 1
     page_size = 5
@@ -13,5 +14,5 @@ def resolve_rooms(self, info, page=1):
     return types.RoomsResponse(rooms=rooms, total_count=total_count)
 
 
-def resolve_room(self, info, id):
+def resolve_room(root, info, id):
     return models.Room.objects.get(pk=id)

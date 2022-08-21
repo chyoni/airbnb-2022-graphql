@@ -60,3 +60,7 @@ REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene 
   ```bash
   pipenv install pyjwt
   ```
+
+- #08 Middlewares
+
+  - Headers에 token을 넣고 request했을 때 token을 받아 decode하는 middleware
