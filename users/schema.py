@@ -18,3 +18,4 @@ class Mutation(object):
     create_account = mutations.CreateAccountMutation.Field()
     login = mutations.LoginMutation.Field()
     toggle_favs = mutations.ToggleFavsMutation.Field()
+    edit_profile = mutations.EditProfileMutation.Field()
