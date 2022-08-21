@@ -54,3 +54,9 @@ REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene 
 - #06 Mutation (create account)
 
   - mutations.py / queries.py 로 분리 후 schema.py에서 합치기 정리
+
+- #07 JWT
+
+  ```bash
+  pipenv install pyjwt
+  ```

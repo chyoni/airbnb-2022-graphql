@@ -15,3 +15,4 @@ class Query(object):
 class Mutation(object):
 
     create_account = mutations.CreateAccountMutation.Field()
+    login = mutations.LoginMutation.Field()
